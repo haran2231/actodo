@@ -35,7 +35,7 @@ function Signup(props) {
                 <input onChange={onChangepass} className="p-1 border border-black rounded-md w-44" type="text" placeholder="password" required />
                 <input className="p-1 border border-black rounded-md w-44" type="text" placeholder="confirm password" required />
                 <input onClick={signup} className="py-1 text-white bg-black w-44" type="button" value="SignUp" />
-                <p path>Already signup pls <Link to="/">login?</Link></p>
+                <p path>Already have an account <Link to="/"><span className="text-blue-700 underline">Login ?</span></Link></p>
             </div>
         </>
     )

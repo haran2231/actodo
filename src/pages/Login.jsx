@@ -48,7 +48,7 @@ function Login(props) {
                 <input onChange={onChangeuser} className="p-1 border border-black rounded-md w-44" type="text" placeholder="username" required />
                 <input onChange={onChangepass} className="p-1 border border-black rounded-md w-44" type="text" placeholder="password" required />
                 <input onClick={loginuser} className="py-1 text-white bg-black w-44" type="button" value="Login" />
-                <p>Don't you have<Link to="/signup">signup?</Link> </p>
+                <p>Don't you have account <Link to="/signup"><span className="text-blue-700 underline">signup ?</span></Link> </p>
             </div>
         </>
     )
