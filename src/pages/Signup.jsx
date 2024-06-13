@@ -28,7 +28,7 @@ function Signup(props) {
 
         
         <>
-            <div className="flex flex-col justify-start gap-3">
+            <div className="flex flex-col items-center justify-start gap-3">
                 <h1 className="text-3xl font-medium">Hey Hiii!!!!</h1>
                 <p>You can signup here</p>
                 <input onChange={onChangeuser} className="p-1 border border-black rounded-md w-44" type="text" placeholder="username" required />

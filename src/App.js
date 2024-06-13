@@ -15,8 +15,8 @@ function App() {
   console.log(user);
   return (
     <>
-      <div className="p-16 bg-black App">
-        <div className="bg-[#EFEFEF] p-10 border rounded-md">
+      <div className="px-16 pt-10 bg-black pb-80 App">
+        <div className="bg-[#EFEFEF] py-40 p-10 border rounded-md">
         <BrowserRouter>
           <Routes>
             <Route path="/home" element={<Landing></Landing>}></Route>
