@@ -19,12 +19,12 @@ function Landing() {
                         <Header name={name.state.user} />
                         {/* card  */}
                         <div className="flex flex-wrap justify-between my-4 gap-7">
-                            <Card bgcolor={"#8272DA"} title={"23°"} subtitle={"Chennai"} />
+                            <Card bgcolor={"#8272DA"} title={"23°"} subtitle={"Coimbatore"} />
                             <Card bgcolor={"#FD6663"} title={"June 06°"} subtitle={"8:45PM"} />
                             <Card bgcolor={"#FCA201"} title={"Built Using"} subtitle={"React"} />
                         </div>
                         {/* todo container  */}
-                        <div className="flex flex-wrap justify-between mt-3 gap-7">
+                        <div className="flex flex-wrap justify-center mt-3 md:justify-between gap-7">
                             <Todocontainer />
                         </div>
                     </>

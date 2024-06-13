@@ -21,10 +21,10 @@ function Entry(props) {
         
     }
     return (
-        <div>
-            <h1 className="font-medium text-2xl">Manage Activities</h1>
+        <div className="flex flex-col gap-3 ">
+            <h1 className="text-2xl font-medium">Manage Activities</h1>
 
-            <input onChange={onChnage} value={value} type={"text"} placeholder="Enter Activity" className="p-1 mt-2 border border-black" /> <button onClick={onclick} className="bg-black text-white p-1">Submit</button>
+            <input onChange={onChnage} value={value} type={"text"} placeholder="Enter Activity" className="p-1 mt-2 border border-black" /> <button onClick={onclick} className="p-1 text-white bg-black">Submit</button>
         </div>
 
         
